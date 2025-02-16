@@ -45,11 +45,11 @@ class Observer{
 }
 
 //Telephone examples
-const phoneSystem = new Telephone();
+const mobileSystem = new Telephone();
 
-//Adding phone numbers
-phoneSystem.addPhoneNumber("2348049578891");
-phoneSystem.addPhoneNumber("2348039488230");
+//Add phone numbers
+mobileSystem.addPhoneNumber("2348049578891");
+mobileSystem.addPhoneNumber("2348039488230");
 
 
 //To create an observer
@@ -61,9 +61,9 @@ const secondObserver = new Observer(number =>
 );
 
 //Add observer to the telephone
-phoneSystem.addObserver(firstObserver);
-phoneSystem.addObserver(secondObserver);
+mobileSystem.addObserver(firstObserver);
+mobileSystem.addObserver(secondObserver);
 
 //Examples...
-phoneSystem.dialPhoneNumber("2348049578891");
-phoneSystem.dialPhoneNumber("666666456646");
+mobileSystem.dialPhoneNumber("2348049578891");
+mobileSystem.dialPhoneNumber("666666456646");
