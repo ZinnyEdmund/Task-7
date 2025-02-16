@@ -12,4 +12,4 @@ The system allows users to add phone numbers, register observer, and notify them
 -  Remove phone numbers.
 -  Register multiple numbers.
 -  Notify observer when dialing.
--  Shows an error if the number wasn't found.
+-  Show an error if the number wasn't found.
