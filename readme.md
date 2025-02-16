@@ -1,4 +1,4 @@
-#Telephone Observer System
+# Telephone Observer System
 
 This project demonstrates the **Observer Pattern** in JavaScript using a **Telephone System**.
 
@@ -6,7 +6,8 @@ The system allows users to add phone numbers, register observer, and notify them
 
 ---
 
-###Features
+### Features
+
 -  Add phone numbers.
 -  Remove phone numbers.
 -  Register multiple numbers.
